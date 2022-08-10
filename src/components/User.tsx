@@ -6,7 +6,7 @@ import { AppDispatch } from '../store';
 
 
 
-const Counter = () => {
+const User = () => {
 
     const allUsers = useSelector((state: any) => state.users.entities)
     const dispatch = useDispatch<AppDispatch>()
@@ -45,4 +45,4 @@ const Counter = () => {
     )
 }
 
-export default Counter
+export default User
